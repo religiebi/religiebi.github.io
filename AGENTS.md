@@ -281,7 +281,7 @@ Definition of Done:
 - [x] `#/t/lutheranism` opens with Lutheranism selected and framed.
 - [x] A dangling `from` id in the data makes `pnpm build` fail with a clear error
       (covered by `scripts/validate-data.test.ts`).
-- [x] The Actions workflow is valid and documented (not yet run on GitHub: first push pending).
+- [x] The Actions workflow is valid and documented (first run on GitHub succeeded).
 - [x] `AGENTS.md` is complete, accurate and current.
 
 ## 9. Progress log
@@ -304,11 +304,11 @@ Definition of Done:
   chunk); Lighthouse mobile (headless Edge, gzip-serving static server) Performance 96–97,
   Accessibility 100, Best Practices 100, SEO 100. Stress test (160 traditions, 219 branches):
   p95 frame 16.8 ms while zooming and dragging. No console messages in the production build.
+- 2026-10-25 — First push to `main`: "Build and deploy" run 40202947397 passed (lint, test,
+  build, deploy). Live at https://religiebi.github.io/; `#/t/lutheranism` verified on the live site.
 
 ## 10. Open questions / content gaps
 
-- The Actions workflow has not run on GitHub yet. After the first push, check the run and enable
-  **Settings → Pages → Source: GitHub Actions**.
 - Lighthouse LCP is ~2.6 s on simulated slow 4G (the header title waits for the Newsreader font
   swap). Preloading the Latin Newsreader file is a possible follow-up if the score drifts below 95.
 - Influence rails from Rabbinic Judaism and Early Christianity to Islam cross many lanes; a future
