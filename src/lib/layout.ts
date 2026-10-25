@@ -4,7 +4,7 @@ import type { Branch, Family, Tradition } from '../data/types.ts';
 export const LANE_H = 30;
 export const BAR_H = 14;
 export const FAMILY_H = 24;
-export const AXIS_H = 32;
+export const AXIS_H = 40;
 export const RAIL_GAP = 5;
 export const LABEL_PAD = 6;
 
@@ -41,7 +41,8 @@ export function computeRows(traditions: readonly Tradition[], families: readonly
     laneCenter.set(t.id, cy);
     y += LANE_H;
   });
-  return { rows, laneCenter, height: y + LANE_H / 2 };
+  // Bottom padding keeps the last lane clear of the zoom controls.
+  return { rows, laneCenter, height: y + 72 };
 }
 
 export interface Rail {

@@ -1,14 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2023",
-    "lib": [
-      "ES2023"
-    ],
+    "lib": ["ES2023"],
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
@@ -20,13 +16,6 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": [
-    "vite.config.ts",
-    "scripts",
-    "src/data/schema.ts",
-    "src/data/types.ts"
-  ],
-  "exclude": [
-    "scripts/**/*.test.ts"
-  ]
+  "include": ["vite.config.ts", "scripts", "src/data/schema.ts", "src/data/types.ts"],
+  "exclude": ["scripts/**/*.test.ts"]
 }

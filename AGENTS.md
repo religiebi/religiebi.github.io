@@ -210,7 +210,7 @@ no stock illustration.
 - **Rail styles** (colour is never the only signal):
   `schism` thick solid (3px) · `reform` solid (2px) · `movement` long dash `8 4` ·
   `revelation` dash-dot `8 3 2 3` · `influence` dotted `1.5 3.5` (round caps).
-- **Spacing**: 4px base unit. Lane height 30px, bar height 14px, family header row 24px, axis 32px.
+- **Spacing**: 4px base unit. Lane height 30px, bar height 14px, family header row 24px, axis 40px.
   Rails sharing a year are offset by 5px steps, centred on the year.
 - **Interaction**: drag pans; wheel/trackpad/pinch zooms the time axis only; shift+wheel or
   horizontal wheel scrolls/pans; vertical drag scrolls lanes; `+`/`−`/fit buttons; keyboard arrows

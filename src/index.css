@@ -1,0 +1,204 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens (AGENTS.md §6). Every colour is a CSS variable, redefined for dark mode, and
+ * exposed to Tailwind through @theme inline so utilities like bg-surface follow the theme.
+ */
+
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-2: #eef1f5;
+  --border: #d3dae3;
+  --grid: #e1e6ec;
+  --band: #ebeff4;
+  --text: #18212c;
+  --text-muted: #556272;
+  --accent: #1f5fa8;
+  --focus: #1b6ad0;
+  --today: #b03636;
+  --halo: var(--bg);
+
+  --g-judaism: #2f5fa7;
+  --g-early-christianity: #5f7186;
+  --g-eastern-churches: #8a4fa0;
+  --g-catholic: #946600;
+  --g-protestant: #2e7d4f;
+  --g-movements-19c: #b0502a;
+  --g-islam: #12796a;
+  --g-babi-bahai: #a33a5b;
+  --g-fallback: #6b7280;
+
+  --font-display: 'Newsreader Variable', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Public Sans Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #10151c;
+  --surface: #161d26;
+  --surface-2: #1d2631;
+  --border: #2d3947;
+  --grid: #212b37;
+  --band: #141b23;
+  --text: #e3e8ee;
+  --text-muted: #9ba8b7;
+  --accent: #82b2ee;
+  --focus: #8dbaff;
+  --today: #e58080;
+
+  --g-judaism: #7fa8e8;
+  --g-early-christianity: #9aabbf;
+  --g-eastern-churches: #c79ade;
+  --g-catholic: #e0b44c;
+  --g-protestant: #6cc28f;
+  --g-movements-19c: #e8895c;
+  --g-islam: #4fc4b0;
+  --g-babi-bahai: #e283a1;
+  --g-fallback: #9ca3af;
+}
+
+/* Without JS the inline theme script never runs: follow the system. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #10151c;
+    --surface: #161d26;
+    --text: #e3e8ee;
+  }
+}
+
+@theme inline {
+  --color-canvas: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-ink: var(--text);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-focus: var(--focus);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------- Chart ---------- */
+
+.chart-svg {
+  display: block;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.chart-svg:active {
+  cursor: grabbing;
+}
+
+.halo {
+  paint-order: stroke;
+  stroke: var(--halo);
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+}
+
+.bar {
+  cursor: pointer;
+  outline: none;
+}
+.bar .bar-rect {
+  transition: stroke-width 120ms;
+}
+.bar:hover .bar-rect,
+.bar.is-selected .bar-rect {
+  stroke-width: 2.25px;
+}
+.bar:focus-visible .bar-focus {
+  stroke: var(--focus);
+  stroke-width: 2px;
+  fill: none;
+}
+.bar .bar-focus {
+  stroke: none;
+  fill: none;
+}
+
+.dimmable {
+  transition: opacity 160ms;
+}
+.is-dim {
+  opacity: 0.18;
+}
+
+.rail {
+  cursor: pointer;
+}
+.rail .rail-hit {
+  stroke: transparent;
+  stroke-width: 12px;
+}
+.rail:hover .rail-line {
+  filter: brightness(1.1);
+}
+
+.chart-label {
+  font: 500 12px/1 var(--font-sans);
+  fill: var(--text);
+}
+.chart-tick {
+  font: 400 11px/1 var(--font-mono);
+  fill: var(--text-muted);
+}
+.chart-era {
+  font: 600 10px/1 var(--font-sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  fill: var(--text-muted);
+}
+.chart-family {
+  font: 600 11px/1 var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  fill: var(--text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+.sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
