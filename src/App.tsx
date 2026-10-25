@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react';
-import { NOW, dataset, loadErrors } from './data/load.ts';
+import { useEffect, useRef, useState } from 'react';
+import { NOW, dataset, validation } from './data/load.ts';
 import { Chart } from './components/Chart.tsx';
 import { Header } from './components/Header.tsx';
 import { Legend } from './components/Legend.tsx';
@@ -24,6 +24,14 @@ export function App() {
   // The view store outlives the chart so switching to the list and back keeps the framing.
   const [store] = useState(() => createViewStore({ win: domain, scrollY: 0 }));
   const guideButtonRef = useRef<HTMLButtonElement>(null);
+  const [loadErrors, setLoadErrors] = useState<string[]>([]);
+  useEffect(() => {
+    let live = true;
+    validation.then((r) => live && setLoadErrors(r.errors));
+    return () => {
+      live = false;
+    };
+  }, []);
 
   if (loadErrors.length) {
     return (

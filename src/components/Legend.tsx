@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { dataset } from '../data/load.ts';
-import { branchTypes } from '../data/schema.ts';
+import type { BranchType } from '../data/types.ts';
 import { useApp } from '../hooks/useSelection.ts';
 import { t } from '../i18n/t.ts';
-import { groupColor, groupFill } from './railStyle.ts';
+import { RAIL_STYLE, groupColor, groupFill } from './railStyle.ts';
+
+const branchTypes = Object.keys(RAIL_STYLE) as BranchType[];
 import { RailSample } from './TypePill.tsx';
 
 /** Guide panel: legend for colours and rail types, navigation help and the data disclaimer. */

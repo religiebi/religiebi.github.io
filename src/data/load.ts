@@ -1,23 +1,26 @@
 import raw from './religions.json';
-import { validateDataset } from './schema.ts';
 import { generateStressData } from './stress.ts';
 import type { Branch, Dataset, Tradition } from './types.ts';
+import type { ValidationResult } from './schema.ts';
 import { buildSearchIndex } from '../lib/search.ts';
 
 /**
- * Loads and validates the dataset once at startup. `?stress` swaps in generated data for
- * performance testing. Invalid data is reported instead of rendering a broken chart.
+ * Loads the dataset once at startup. `?stress` swaps in generated data for performance testing.
+ *
+ * Validation: `pnpm build` already rejects invalid data, so the Zod schema is loaded in a separate
+ * chunk right after startup instead of on the critical path (it is a large share of the bundle).
+ * If validation fails at load, the app replaces the chart with the list of problems.
  */
 const useStress =
   typeof location !== 'undefined' && new URLSearchParams(location.search).has('stress');
 
-const result = validateDataset(useStress ? generateStressData() : raw);
+export const dataset: Dataset = useStress ? generateStressData() : (raw as unknown as Dataset);
 
-export const loadErrors: string[] = result.ok ? [] : result.errors;
-if (!result.ok) console.error('Dataset validation failed:\n' + result.errors.join('\n'));
-
-const empty: Dataset = { families: [], groups: [], traditions: [], branches: [] };
-export const dataset: Dataset = result.ok ? result.data : empty;
+export const validation: Promise<ValidationResult> = import('./schema.ts').then((m) => {
+  const result = m.validateDataset(dataset);
+  if (!result.ok) console.error('Dataset validation failed:\n' + result.errors.join('\n'));
+  return result;
+});
 
 export const traditionById = new Map<string, Tradition>(dataset.traditions.map((t) => [t.id, t]));
 export const branchById = new Map<string, Branch>(dataset.branches.map((b) => [b.id, b]));

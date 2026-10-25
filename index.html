@@ -48,7 +48,25 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static shell: paints the header before the app script runs; React replaces it. -->
+      <div class="flex h-dvh flex-col overflow-hidden">
+        <header class="relative z-30 border-b border-line bg-surface">
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2 px-3 py-2 md:px-4">
+            <div class="order-1 flex min-w-0 items-baseline gap-3">
+              <h1
+                class="font-display text-xl leading-none font-semibold tracking-tight whitespace-nowrap md:text-[22px]"
+              >
+                <a href="#/">Branches of Faith</a>
+              </h1>
+              <p class="hidden text-sm text-muted xl:block">
+                How the Abrahamic traditions branched
+              </p>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
     <noscript>
       <p style="padding: 1rem; font-family: sans-serif">
         Branches of Faith is an interactive chart and needs JavaScript.

@@ -62,13 +62,14 @@ pnpm stress             # dev server with generated stress data (?stress in the 
 
 ```
 .github/workflows/deploy.yml  CI: lint, test, build on PRs; deploy to GitHub Pages on main
-public/                       favicon.svg, robots.txt, 404.html (redirects to /), og image
-scripts/validate-data.ts      CLI validator used by `pnpm build`, CI and tests
+public/                       favicon.svg, robots.txt, sitemap.xml, 404.html (→ /), og-image.png
+scripts/validate-data.ts      CLI validator used by `pnpm build`, CI and tests (+ .test.ts)
+scripts/og-image.svg          source of public/og-image.png (regenerate command inside)
 data/TODO-sources.md          entries whose sources/dates still need human verification
 src/data/religions.json       THE dataset (single source of truth)
 src/data/schema.ts            Zod schemas + validateDataset() integrity checks (pure)
 src/data/types.ts             TypeScript types inferred from the schema
-src/data/load.ts              runtime load + validation of the dataset
+src/data/load.ts              runtime load, lookup maps, deferred Zod validation (separate chunk)
 src/data/stress.ts            generator for large synthetic datasets (perf testing only)
 src/components/Chart.tsx      SVG chart: axis, era bands, lanes, bars, rails, today marker
 src/components/Panel.tsx      detail panel (sidebar on desktop, bottom sheet on mobile)
@@ -76,6 +77,11 @@ src/components/Header.tsx     title, search, family chips, view/theme/guide cont
 src/components/Legend.tsx     guide panel: colour + rail-type legend and data disclaimer
 src/components/ListView.tsx   text list of all traditions and branches (accessible alternative)
 src/components/About.tsx      About & corrections page
+src/components/TypePill.tsx   branch-type pill and rail-style sample (legend, panel)
+src/components/Sources.tsx    source list
+src/components/railStyle.ts   rail stroke styles per branch type; group colour helpers
+src/App.tsx                   layout shell; App.test.tsx is the integration test
+src/test/setup.ts             jest-dom matchers + Testing Library cleanup
 src/hooks/useZoom.ts          attaches d3-zoom to the SVG ref; drives the view store
 src/hooks/viewStore.ts        tiny external store for the visible window (per-frame state)
 src/hooks/useSelection.ts     Zustand app store: selection, search, filters, view mode
@@ -93,8 +99,12 @@ index.html, vite.config.ts, README.md, AGENTS.md, CLAUDE.md
 ```
 
 Deviations from the original brief (deliberate): `src/lib/route.ts`, `src/lib/view.ts`,
-`src/hooks/viewStore.ts`, `src/data/load.ts`, `src/data/stress.ts` and `src/i18n/t.ts` were added
-so that hash parsing, view maths, data loading and translation stay pure and testable.
+`src/hooks/viewStore.ts`, `src/data/load.ts`, `src/data/stress.ts`, `src/i18n/t.ts` and the small
+component helpers above were added so that hash parsing, view maths, data loading and translation
+stay pure and testable. TypeScript configs: `tsconfig.app.json` (src, no tests),
+`tsconfig.node.json` (vite config + scripts), `tsconfig.test.json` (tests, with Node types).
+Vitest defaults to the `node` environment; component tests opt in with a
+`// @vitest-environment jsdom` docblock.
 
 ## 4. Data schema, validation and editing
 
@@ -160,6 +170,10 @@ are collected, not thrown one by one, and printed with the offending id:
 9. Every branch has ≥ 1 source **or** its id appears in backticks in `data/TODO-sources.md`.
    (The browser runtime skips check 9 because it cannot read that file.)
 
+Runtime validation: `src/data/load.ts` uses the JSON immediately and validates it with the same
+schema in a lazily imported chunk right after start-up (keeps ~25 kB gzipped of Zod off the
+critical path). If it fails, `App` replaces the chart with the list of errors.
+
 `pnpm build`, CI and `src/data/schema.test.ts` all run validation; any error fails the build.
 
 ### Adding or editing a tradition
@@ -212,14 +226,22 @@ no stock illustration.
   `revelation` dash-dot `8 3 2 3` · `influence` dotted `1.5 3.5` (round caps).
 - **Spacing**: 4px base unit. Lane height 30px, bar height 14px, family header row 24px, axis 40px.
   Rails sharing a year are offset by 5px steps, centred on the year.
-- **Interaction**: drag pans; wheel/trackpad/pinch zooms the time axis only; shift+wheel or
-  horizontal wheel scrolls/pans; vertical drag scrolls lanes; `+`/`−`/fit buttons; keyboard arrows
+- **Interaction**: drag pans; wheel/trackpad/pinch zooms the time axis only; shift+wheel scrolls
+  lanes and horizontal wheel pans; double-click zoom is disabled (it fought with clicking bars); vertical drag scrolls lanes; `+`/`−`/fit buttons; keyboard arrows
   pan, `+`/`-` zoom, `0` fits, `Esc` clears selection. Zoom range: whole timeline to ≈ 1px per
   month. Panning is clamped so data never leaves the viewport. Fly-to animations interpolate the
   visible-year window with `d3-ease` cubic in-out (≈ 650 ms) and jump instantly under
   `prefers-reduced-motion`.
 - **Dimming**: lineage highlight, family filters and search all dim (opacity ≈ 0.18) rather than
   hide. Focus rings use `--focus` and are always visible on keyboard focus.
+- **Layering** (bottom → top): era bands, grid, family headers, rails, bars, junction dots, labels,
+  today marker, axis. Labels have their own layer so dots never cover them.
+- **Layout**: desktop (≥ 768px) puts the panel in a right sidebar (340/380px). Below that the
+  panel is a bottom sheet in the layout flow (the chart shrinks above it, max 50% height) and is
+  hidden when nothing is selected. `index.html` contains a static header shell so the title paints
+  before the script runs (LCP); keep it in sync with `Header.tsx`.
+- Lanes are culled vertically only when there are more than 80 traditions (keeps every bar
+  tabbable for the real dataset).
 
 ## 7. Deployment
 
@@ -254,20 +276,45 @@ Quality bars:
 
 Definition of Done:
 
-- [ ] `pnpm install && pnpm dev` works; `pnpm build` yields a working `dist/`.
-- [ ] All features work on desktop and a 360px viewport in both themes.
-- [ ] `#/t/lutheranism` opens with Lutheranism selected and framed.
-- [ ] A dangling `from` id in the data makes `pnpm build` fail with a clear error.
-- [ ] The Actions workflow is valid and documented.
-- [ ] `AGENTS.md` is complete, accurate and current.
+- [x] `pnpm install && pnpm dev` works; `pnpm build` yields a working `dist/`.
+- [x] All features work on desktop and a 360px viewport in both themes.
+- [x] `#/t/lutheranism` opens with Lutheranism selected and framed.
+- [x] A dangling `from` id in the data makes `pnpm build` fail with a clear error
+      (covered by `scripts/validate-data.test.ts`).
+- [x] The Actions workflow is valid and documented (not yet run on GitHub: first push pending).
+- [x] `AGENTS.md` is complete, accurate and current.
 
 ## 9. Progress log
 
 - 2026-10-25 — Step 0: wrote AGENTS.md and CLAUDE.md. Verified current package versions on npm
   (Vite 8.3, React 19.3, Tailwind 4.3, Zod 4.6, Vitest 5.0, ESLint 10, pnpm 12). Chose TS 6.0.x
   over TS 7 because typescript-eslint 8.72 requires `typescript <6.1`.
+- 2026-10-25 — Data: researched all 27 traditions and 28 branches (three parallel research passes,
+  sources verified by fetch or exact search-result URL). **Date change vs. the seed:** Conservative
+  Judaism 1887 → **1886** (JTS founded January 1886; classes began 1887). All other seed dates
+  held. Added Zod schema, integrity checks, CLI validator and tests.
+- 2026-10-25 — Pure lib (layout, format, search, lineage, route, view) with unit tests.
+- 2026-10-25 — UI: chart (era bands, ticks, rails with offsets, junction dots, pinned/flipped
+  labels, today marker, scroll indicator), d3-zoom hook with external view store, panel, search,
+  family chips, hash deep links, theme toggle, list view, guide, About; integration test.
+- 2026-10-25 — Deploy workflow (checkout@v7, pnpm/action-setup@v6, setup-node@v7,
+  configure-pages@v6, upload-pages-artifact@v5, deploy-pages@v5: latest majors per the GitHub
+  releases API), README, public assets, OG image.
+- 2026-10-25 — Quality pass: initial JS 123 kB gzipped (was 145 kB before moving Zod to a deferred
+  chunk); Lighthouse mobile (headless Edge, gzip-serving static server) Performance 96–97,
+  Accessibility 100, Best Practices 100, SEO 100. Stress test (160 traditions, 219 branches):
+  p95 frame 16.8 ms while zooming and dragging. No console messages in the production build.
 
 ## 10. Open questions / content gaps
+
+- The Actions workflow has not run on GitHub yet. After the first push, check the run and enable
+  **Settings → Pages → Source: GitHub Actions**.
+- Lighthouse LCP is ~2.6 s on simulated slow 4G (the header title waits for the Newsreader font
+  swap). Preloading the Latin Newsreader file is a possible follow-up if the score drifts below 95.
+- Influence rails from Rabbinic Judaism and Early Christianity to Islam cross many lanes; a future
+  computed lane order could shorten them.
+- Lineage, search and family dimming combine (any reason dims). Consider making search highlight
+  rather than dim when a selection is active.
 
 - See `data/TODO-sources.md` for entries needing human verification.
 - Georgian localisation: Newsreader and Public Sans have no Georgian glyphs; a Georgian-capable

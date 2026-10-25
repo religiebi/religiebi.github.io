@@ -36,7 +36,9 @@ export function generateStressData(traditionCount = 160, extraLinks = 60): Datas
           : undefined;
     const pStart = parent?.start ?? -800;
     const pEnd = parent?.end ?? now;
-    const start = parent ? Math.round(pStart + 1 + rand() * Math.max(1, pEnd - pStart - 2)) : -800;
+    const start = parent
+      ? Math.min(pEnd, Math.round(pStart + 1 + rand() * Math.max(0, pEnd - pStart - 2)))
+      : -800;
     const end = rand() < 0.2 ? Math.min(now, start + 20 + Math.round(rand() * 600)) : null;
     const id = `s-${i}`;
     traditions.push({

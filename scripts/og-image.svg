@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Source for public/og-image.png. Regenerate with:
+       pnpm dlx @resvg/resvg-js-cli scripts/og-image.svg public/og-image.png -->
+  <rect width="1200" height="630" fill="#f4f6f8"/>
+  <rect x="0" y="330" width="1200" height="300" fill="#ebeff4"/>
+  <g stroke="#e1e6ec" stroke-width="1">
+    <path d="M200 300V630M400 300V630M600 300V630M800 300V630M1000 300V630"/>
+  </g>
+  <text x="72" y="150" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="84" font-weight="600" fill="#18212c">Branches of Faith</text>
+  <text x="74" y="208" font-family="'Public Sans', 'Segoe UI', Arial, sans-serif" font-size="30" fill="#556272">How Judaism, Christianity, Islam and the Bahá’í Faith branched</text>
+  <text x="74" y="250" font-family="'Public Sans', 'Segoe UI', Arial, sans-serif" font-size="24" fill="#556272">An interactive, sourced timeline</text>
+
+  <!-- stylised lanes -->
+  <g stroke-width="3">
+    <rect x="72" y="340" width="300" height="22" rx="3" fill="#cbd6e8" stroke="#2f5fa7"/>
+    <rect x="300" y="390" width="828" height="22" rx="3" fill="#cbd6e8" stroke="#2f5fa7"/>
+    <rect x="290" y="440" width="420" height="22" rx="3" fill="#d4d9e0" stroke="#5f7186"/>
+    <rect x="710" y="490" width="418" height="22" rx="3" fill="#e5d9c2" stroke="#946600"/>
+    <rect x="860" y="540" width="268" height="22" rx="3" fill="#c9dfd1" stroke="#2e7d4f"/>
+    <rect x="560" y="590" width="568" height="22" rx="3" fill="#c3dfda" stroke="#12796a"/>
+  </g>
+  <g fill="none">
+    <path d="M300 351V401" stroke="#2f5fa7" stroke-width="4"/>
+    <path d="M290 351V451" stroke="#5f7186" stroke-width="3" stroke-dasharray="12 6"/>
+    <path d="M710 451V501" stroke="#946600" stroke-width="5"/>
+    <path d="M860 501V551" stroke="#2e7d4f" stroke-width="3"/>
+    <path d="M560 451V601" stroke="#12796a" stroke-width="3" stroke-dasharray="12 5 3 5"/>
+  </g>
+  <g fill="#18212c" stroke="#f4f6f8" stroke-width="2">
+    <circle cx="300" cy="351" r="6"/>
+    <circle cx="290" cy="351" r="6"/>
+    <circle cx="710" cy="451" r="6"/>
+    <circle cx="860" cy="501" r="6"/>
+    <circle cx="560" cy="451" r="6"/>
+  </g>
+</svg>
