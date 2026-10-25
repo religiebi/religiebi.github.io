@@ -1,0 +1,1518 @@
+{
+  "families": [
+    {
+      "id": "judaism",
+      "label": "Judaism"
+    },
+    {
+      "id": "christianity",
+      "label": "Christianity"
+    },
+    {
+      "id": "islam-bahai",
+      "label": "Islam & Bahá'í"
+    }
+  ],
+  "groups": [
+    {
+      "id": "judaism",
+      "label": "Judaism"
+    },
+    {
+      "id": "early-christianity",
+      "label": "Early Christianity"
+    },
+    {
+      "id": "eastern-churches",
+      "label": "Eastern churches"
+    },
+    {
+      "id": "catholic",
+      "label": "Catholic"
+    },
+    {
+      "id": "protestant",
+      "label": "Protestant"
+    },
+    {
+      "id": "movements-19c",
+      "label": "19th-century movements"
+    },
+    {
+      "id": "islam",
+      "label": "Islam"
+    },
+    {
+      "id": "babi-bahai",
+      "label": "Bábí & Bahá'í"
+    }
+  ],
+  "traditions": [
+    {
+      "id": "second-temple",
+      "name": "Second Temple Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": -516,
+      "end": 70,
+      "approx": true,
+      "summary": "The religion of the Judean and diaspora Jewish communities from the completion of the rebuilt Jerusalem Temple (c. 516 BCE) until its destruction by Rome in 70 CE. It centred on Temple sacrifice and priesthood alongside the Torah, and was internally diverse, including groups such as Pharisees, Sadducees and Essenes who differed over law, purity and authority.",
+      "sources": [
+        {
+          "title": "Temple of Jerusalem (Research Starter)",
+          "url": "https://www.ebsco.com/research-starters/history/temple-jerusalem/",
+          "publisher": "EBSCO"
+        },
+        {
+          "title": "The Second Temple (Lawrence H. Schiffman, From Text to Tradition)",
+          "url": "https://cojs.org/the_second_temple-_lawrence_h-_schiffman-_from_text_to_tradition-_ktav_publishing_house-_hoboken-_nj-_1991/",
+          "publisher": "Center for Online Judaic Studies / Ktav"
+        }
+      ]
+    },
+    {
+      "id": "rabbinic",
+      "name": "Rabbinic Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 70,
+      "end": null,
+      "summary": "The form of Judaism that became normative after the fall of the Second Temple, organised around the authority of the sages (rabbis) and their interpretation of the Written Torah together with the Oral Torah, which according to rabbinic tradition was also given at Sinai. Its foundational literature is the Mishnah (c. 200 CE) and the Talmuds, and it places Torah study, prayer and halakhah (Jewish law) at the centre of religious life.",
+      "sources": [
+        {
+          "title": "Rabbinic Judaism",
+          "url": "https://www.britannica.com/topic/Rabbinic-Judaism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Judaism After the Temple",
+          "url": "https://www.myjewishlearning.com/article/judaism-after-the-temple/",
+          "publisher": "My Jewish Learning"
+        }
+      ]
+    },
+    {
+      "id": "karaite",
+      "name": "Karaite Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 760,
+      "end": null,
+      "approx": true,
+      "summary": "A Jewish movement that recognises the Hebrew Bible (Tanakh) alone as authoritative for law and doctrine and rejects the rabbinic Oral Torah and Talmud as binding. Karaites interpret scripture directly, which produces distinctive practices and calendar reckoning; Karaites themselves regard their Judaism as the original form, while historians usually trace the movement to 8th-9th century Babylonia and Persia.",
+      "sources": [
+        {
+          "title": "Karaism",
+          "url": "https://www.britannica.com/topic/Karaism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Karaites",
+          "url": "https://www.jewishvirtuallibrary.org/karaites",
+          "publisher": "Jewish Virtual Library"
+        },
+        {
+          "title": "Biblical Exegesis as a Source of Jewish Pluralism: The Case of the Karaites (Daniel J. Lasker)",
+          "url": "https://thetorah.com/biblical-exegesis-as-a-source-of-jewish-pluralism-the-case-of-the-karaites/",
+          "publisher": "TheTorah.com"
+        }
+      ]
+    },
+    {
+      "id": "hasidic",
+      "name": "Hasidic Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 1740,
+      "end": null,
+      "approx": true,
+      "summary": "A religious revival movement that arose in Podolia in the second quarter of the 18th century around Israel ben Eliezer, the Ba'al Shem Tov (d. 1760), and spread across Eastern Europe. Drawing on Kabbalah, it emphasises devekut (attachment to God), joyful and fervent prayer and the spiritual leadership of the tzaddik or rebbe, and it later divided into many dynastic courts that continue today.",
+      "sources": [
+        {
+          "title": "Hasidism: Historical Overview",
+          "url": "https://encyclopedia.yivo.org/article/9",
+          "publisher": "YIVO Encyclopedia of Jews in Eastern Europe"
+        },
+        {
+          "title": "Baal Shem Tov",
+          "url": "https://www.britannica.com/biography/Baal-Shem-Tov",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "orthodox-judaism",
+      "name": "Orthodox Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 1800,
+      "end": null,
+      "approx": true,
+      "summary": "The collective name for traditionalist Jewish communities that hold the Written and Oral Torah to be divinely given and halakhah to be binding and essentially unchangeable. Orthodox Jews generally understand themselves as continuing rabbinic Judaism rather than founding a new movement; historians describe 'Orthodoxy' as a self-conscious stance and label that took shape in early-to-mid 19th-century Central Europe in response to Enlightenment and Reform. It ranges from Neo-Orthodox/Modern Orthodox currents (associated with Samson Raphael Hirsch) to Haredi communities.",
+      "sources": [
+        {
+          "title": "Responses to Reform Movement's Emergence: Orthodox and Conservative",
+          "url": "https://www.myjewishlearning.com/article/orthodox-conservative-and-reconstructionist-judaism/",
+          "publisher": "My Jewish Learning"
+        },
+        {
+          "title": "Samson Raphael Hirsch: The Father of Neo-Orthodoxy",
+          "url": "https://www.myjewishlearning.com/article/samson-raphael-hirsch-the-father-of-neo-orthodoxy/",
+          "publisher": "My Jewish Learning"
+        },
+        {
+          "title": "Jeffrey C. Blutinger on the history of the label 'Orthodox' (Modern Judaism)",
+          "url": "https://muse.jhu.edu/article/230171",
+          "publisher": "Project MUSE"
+        }
+      ]
+    },
+    {
+      "id": "reform-judaism",
+      "name": "Reform Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 1810,
+      "end": null,
+      "summary": "A modernising movement that began in early 19th-century Germany and holds that Jewish belief and practice can and should evolve with changing times. It introduced vernacular prayer and sermons, choirs and organ music, and confirmation, and in its classical form (e.g. the 1885 Pittsburgh Platform) regarded ritual law as non-binding while stressing Judaism's ethical teachings.",
+      "sources": [
+        {
+          "title": "Reform Judaism (summary)",
+          "url": "https://www.britannica.com/summary/Reform-Judaism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Israel Jacobson",
+          "url": "https://www.jewishvirtuallibrary.org/jacobson-israel",
+          "publisher": "Jewish Virtual Library (Encyclopaedia Judaica)"
+        }
+      ]
+    },
+    {
+      "id": "conservative-judaism",
+      "name": "Conservative Judaism",
+      "family": "judaism",
+      "group": "judaism",
+      "start": 1886,
+      "end": null,
+      "summary": "A movement (called Masorti outside North America) that upholds the authority of halakhah and traditional observance while holding that Jewish law has developed historically and may continue to change through scholarly and rabbinic process. It traces its ideas to Zacharias Frankel's 'positive-historical' Judaism and its institutional base to the Jewish Theological Seminary in New York; it is often characterised as standing between Orthodoxy and Reform.",
+      "sources": [
+        {
+          "title": "Conservative Judaism (Pamela S. Nadell, Encyclopedia of Religion)",
+          "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/conservative-judaism",
+          "publisher": "Gale / Encyclopedia.com"
+        },
+        {
+          "title": "Responses to Reform Movement's Emergence: Orthodox and Conservative",
+          "url": "https://www.myjewishlearning.com/article/orthodox-conservative-and-reconstructionist-judaism/",
+          "publisher": "My Jewish Learning"
+        }
+      ]
+    },
+    {
+      "id": "early-christianity",
+      "name": "Early Christianity",
+      "family": "christianity",
+      "group": "early-christianity",
+      "start": 30,
+      "end": 1054,
+      "approx": true,
+      "summary": "Early Christianity began as a movement within Second Temple Judaism centred on Jesus of Nazareth, whose followers proclaimed him the Messiah after his execution in Jerusalem around 30 CE. It spread through Jewish and Gentile communities across the Roman world and beyond, developing creeds, councils and episcopal structures. The end date of 1054 is a conventional modelling choice for the undivided church; both the Catholic and the Eastern Orthodox churches claim continuity with it.",
+      "sources": [
+        {
+          "title": "History of early Christianity",
+          "url": "https://www.britannica.com/topic/history-of-early-Christianity",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Jesus",
+          "url": "https://www.britannica.com/biography/Jesus",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "church-of-the-east",
+      "name": "Church of the East",
+      "family": "christianity",
+      "group": "eastern-churches",
+      "start": 431,
+      "end": null,
+      "summary": "The Church of the East is the historic Syriac-speaking church of the Persian (Sasanian) Empire, centred on Seleucia-Ctesiphon, which once extended its missions to Central Asia, India and China. It did not accept the Council of Ephesus (431) and today is represented chiefly by the Assyrian Church of the East and the Ancient Church of the East. In the West it was long called 'Nestorian', a label the church itself regards as pejorative and which many scholars consider misleading.",
+      "sources": [
+        {
+          "title": "Nestorianism",
+          "url": "https://www.britannica.com/topic/Nestorianism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "The Assyrian Church",
+          "url": "https://www.oikoumene.org/church-families/the-assyrian-church",
+          "publisher": "World Council of Churches"
+        }
+      ]
+    },
+    {
+      "id": "oriental-orthodox",
+      "name": "Oriental Orthodoxy",
+      "family": "christianity",
+      "group": "eastern-churches",
+      "start": 451,
+      "end": null,
+      "summary": "The Oriental Orthodox churches are the communion of churches that did not accept the Council of Chalcedon (451): the Coptic, Ethiopian, Eritrean, Syriac, Armenian and Malankara (Indian) Orthodox churches. They accept the first three ecumenical councils and hold a miaphysite Christology based on Cyril of Alexandria's formula of 'one incarnate nature of the Word'. The older label 'Monophysite' is now generally regarded as inaccurate, and official dialogue with the Eastern Orthodox since 1985 has produced Christological agreements.",
+      "sources": [
+        {
+          "title": "Orthodox churches (Oriental)",
+          "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+          "publisher": "World Council of Churches"
+        },
+        {
+          "title": "Miaphysitism",
+          "url": "https://www.britannica.com/topic/miaphysitism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "eastern-orthodox",
+      "name": "Eastern Orthodoxy",
+      "family": "christianity",
+      "group": "eastern-churches",
+      "start": 1054,
+      "end": null,
+      "summary": "Eastern Orthodoxy is the communion of self-governing (autocephalous) churches rooted in the Greek-speaking Byzantine tradition, including the Ecumenical Patriarchate of Constantinople and the Russian, Romanian, Serbian, Greek and other churches. It accepts the seven ecumenical councils and does not accept papal primacy of jurisdiction or the Western 'filioque' addition to the Nicene Creed. It understands itself as the continuation of the undivided church of the first millennium.",
+      "sources": [
+        {
+          "title": "Eastern Orthodoxy",
+          "url": "https://www.britannica.com/topic/Eastern-Orthodoxy",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Orthodox churches (Eastern)",
+          "url": "https://www.oikoumene.org/church-families/orthodox-churches-eastern",
+          "publisher": "World Council of Churches"
+        }
+      ]
+    },
+    {
+      "id": "catholic",
+      "name": "Catholic Church",
+      "family": "christianity",
+      "group": "catholic",
+      "start": 1054,
+      "end": null,
+      "summary": "The Catholic Church is the communion of churches in full communion with the bishop of Rome, comprising the Latin Church and the Eastern Catholic churches. According to its teaching, it traces its origin to Jesus and the apostles, with Peter regarded as the first bishop of Rome, and it understands itself as the continuation of the undivided early church. The 1054 start date here marks only the conventional East–West division, not the church's own understanding of its founding.",
+      "sources": [
+        {
+          "title": "Roman Catholicism",
+          "url": "https://www.britannica.com/topic/Roman-Catholicism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "How Was the Catholic Church Founded?",
+          "url": "https://www.britannica.com/topic/How-was-the-Catholic-Church-Founded",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "lutheranism",
+      "name": "Lutheranism",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1517,
+      "end": null,
+      "summary": "Lutheranism is the branch of Protestantism that traces its theology to Martin Luther and the German Reformation, conventionally dated from the Ninety-five Theses of 31 October 1517. It teaches justification by grace through faith and the supreme authority of Scripture, with its doctrinal standards collected in the Book of Concord (1580). It is organised in autonomous regional and national churches, many linked through the Lutheran World Federation (1947).",
+      "sources": [
+        {
+          "title": "Lutheranism",
+          "url": "https://www.britannica.com/topic/Lutheranism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Martin Luther",
+          "url": "https://www.britannica.com/biography/Martin-Luther",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "reformed",
+      "name": "Reformed & Presbyterian",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1519,
+      "end": null,
+      "summary": "The Reformed tradition arose in the Swiss Reformation, beginning with Huldrych Zwingli's preaching in Zurich from 1519 and later shaped decisively by John Calvin in Geneva. It emphasises the sovereignty of God, the authority of Scripture and a simplified worship, and many of its churches adopted presbyterian government by elected elders. It spread to France, the Netherlands, Scotland (through John Knox), Hungary and North America.",
+      "sources": [
+        {
+          "title": "Huldrych Zwingli",
+          "url": "https://www.britannica.com/biography/Huldrych-Zwingli",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Presbyterian",
+          "url": "https://www.britannica.com/topic/presbyterian",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Calvinism summary",
+          "url": "https://www.britannica.com/summary/Calvinism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "anglicanism",
+      "name": "Anglicanism",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1534,
+      "end": null,
+      "summary": "Anglicanism originates in the Church of England, which separated from papal jurisdiction when Parliament passed the Act of Supremacy in 1534, declaring Henry VIII supreme head of the English church. Its identity was shaped by the Book of Common Prayer (1549; 1662) and the Thirty-nine Articles (1571), and it describes itself as both catholic and reformed. Today the churches of the Anglican Communion are loosely united around the Church of England and the Archbishop of Canterbury.",
+      "sources": [
+        {
+          "title": "Anglicanism",
+          "url": "https://www.britannica.com/topic/Anglicanism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Church of England",
+          "url": "https://www.britannica.com/topic/Church-of-England",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "anabaptists",
+      "name": "Anabaptists",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1525,
+      "end": null,
+      "summary": "The Anabaptists were a 'radical' Reformation movement that taught that baptism should follow a personal confession of faith, and that the church should be a voluntary community of believers separate from state control. The Swiss Brethren formed near Zurich in January 1525, and the movement was widely persecuted by Catholic and Protestant authorities alike. Its living descendants include the Mennonites, Amish and Hutterites.",
+      "sources": [
+        {
+          "title": "Anabaptist",
+          "url": "https://www.britannica.com/topic/Anabaptists",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Swiss Brethren",
+          "url": "https://www.britannica.com/topic/Swiss-Brethren",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "baptists",
+      "name": "Baptists",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1609,
+      "end": null,
+      "summary": "Baptists emerged from English Separatism when John Smyth's exiled congregation in Amsterdam adopted believer's baptism in 1609; Thomas Helwys led part of the group back to England, founding a church near London around 1611–12. Baptists teach baptism of professing believers (later typically by immersion), congregational autonomy and religious liberty. They became one of the largest Protestant families, especially in the United States.",
+      "sources": [
+        {
+          "title": "Baptist – History",
+          "url": "https://www.britannica.com/topic/Baptist/History",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "John Smyth",
+          "url": "https://www.britannica.com/biography/John-Smyth",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Thomas Helwys",
+          "url": "https://www.britannica.com/biography/Thomas-Helwys",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "methodism",
+      "name": "Methodism",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1738,
+      "end": null,
+      "summary": "Methodism grew out of the evangelical revival led by John and Charles Wesley within the Church of England, gaining momentum after John Wesley's Aldersgate experience of 24 May 1738. It emphasises personal assurance of salvation, holiness of life, disciplined small groups and lay preaching. American Methodists organised as a separate church at the Christmas Conference of 1784, and British Methodism separated formally from the Church of England in 1795.",
+      "sources": [
+        {
+          "title": "Methodism",
+          "url": "https://www.britannica.com/topic/Methodism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Roots (1736–1816)",
+          "url": "https://www.umc.org/en/content/roots",
+          "publisher": "The United Methodist Church"
+        }
+      ]
+    },
+    {
+      "id": "pentecostalism",
+      "name": "Pentecostalism",
+      "family": "christianity",
+      "group": "protestant",
+      "start": 1906,
+      "end": null,
+      "summary": "Pentecostalism is a renewal movement that teaches a post-conversion 'baptism in the Holy Spirit', often evidenced by speaking in tongues, together with divine healing and other spiritual gifts. It drew on the Wesleyan Holiness movement, Charles Fox Parham's teaching in Topeka (1901) and, above all, the Azusa Street revival in Los Angeles led by William J. Seymour from 1906. It has since become one of the fastest-growing forms of Christianity, especially in the Global South.",
+      "sources": [
+        {
+          "title": "Azusa Street revival",
+          "url": "https://www.britannica.com/topic/Azusa-Street-revival",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Spirit and Power: A 10-Country Survey of Pentecostals (Preface)",
+          "url": "https://www.pewresearch.org/religion/2006/10/05/spirit-and-power-a-10-country-survey-of-pentecostals3/",
+          "publisher": "Pew Research Center"
+        }
+      ]
+    },
+    {
+      "id": "adventism",
+      "name": "Adventism",
+      "family": "christianity",
+      "group": "movements-19c",
+      "start": 1844,
+      "end": null,
+      "summary": "Adventism grew out of the Millerite movement in the United States, which expected Christ's return in 1843–44 and experienced the 'Great Disappointment' of 22 October 1844. Several denominations emerged afterwards, the largest being the Seventh-day Adventist Church, formally organised in 1863, which teaches Saturday Sabbath observance and an imminent Second Coming. Ellen G. White, James White and Joseph Bates are regarded by the church as its co-founders.",
+      "sources": [
+        {
+          "title": "Adventist",
+          "url": "https://www.britannica.com/topic/Adventism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Our History",
+          "url": "https://adventist.org/identity/history",
+          "publisher": "Seventh-day Adventist Church"
+        }
+      ]
+    },
+    {
+      "id": "jehovahs-witnesses",
+      "name": "Jehovah's Witnesses",
+      "family": "christianity",
+      "group": "movements-19c",
+      "start": 1879,
+      "end": null,
+      "approx": true,
+      "summary": "Jehovah's Witnesses developed from a Bible study group formed by Charles Taze Russell in Allegheny, Pennsylvania, in the early 1870s, whose magazine Zion's Watch Tower first appeared in July 1879. The movement, long known as the Bible Students, adopted the name Jehovah's Witnesses in 1931 under Joseph F. Rutherford. Witnesses teach that their beliefs are a restoration of first-century Christianity; they are known for door-to-door ministry and for rejecting the doctrine of the Trinity.",
+      "sources": [
+        {
+          "title": "Jehovah's Witness",
+          "url": "https://www.britannica.com/topic/Jehovahs-Witnesses",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Noteworthy Events in the Modern-day History of Jehovah's Witnesses",
+          "url": "https://www.jw.org/en/library/books/Jehovahs-Witnesses-Proclaimers-of-Gods-Kingdom/Noteworthy-Events-in-the-Modern-day-History-of-Jehovahs-Witnesses/",
+          "publisher": "Jehovah's Witnesses (jw.org)"
+        }
+      ]
+    },
+    {
+      "id": "latter-day-saints",
+      "name": "Latter Day Saints",
+      "family": "christianity",
+      "group": "movements-19c",
+      "start": 1830,
+      "end": null,
+      "summary": "The Latter Day Saint movement began when Joseph Smith and associates organised the Church of Christ on 6 April 1830 in Fayette, New York, shortly after publishing the Book of Mormon. The Church of Jesus Christ of Latter-day Saints, its largest body, describes itself as the restoration of the original church of Jesus Christ through modern prophets; historians such as Jan Shipps describe Mormonism as a new religious tradition. After Smith's death in 1844 the movement divided, producing bodies such as the Community of Christ.",
+      "sources": [
+        {
+          "title": "Church of Jesus Christ of Latter-day Saints (LDS)",
+          "url": "https://www.britannica.com/topic/Church-of-Jesus-Christ-of-Latter-day-Saints",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Our History",
+          "url": "https://www.churchofjesuschrist.org/welcome/our-history?lang=eng",
+          "publisher": "The Church of Jesus Christ of Latter-day Saints"
+        }
+      ]
+    },
+    {
+      "id": "islam",
+      "name": "Islam",
+      "family": "islam-bahai",
+      "group": "islam",
+      "start": 610,
+      "end": null,
+      "approx": true,
+      "summary": "Monotheistic tradition centred on the Qur'an, which Muslims believe was revealed to Muhammad starting c. 610 CE, according to Islamic tradition in a cave on Mount Hira near Mecca. Muslims regard Muhammad as the last in a line of prophets that includes Adam, Noah, Abraham, Moses and Jesus. This entry represents the early, still-undivided community of believers around Muhammad, before later sectarian identities took shape.",
+      "sources": [
+        {
+          "title": "Islam",
+          "url": "https://www.britannica.com/topic/Islam",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Mount Hira",
+          "url": "https://www.britannica.com/place/Mount-Hira",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Abrahamic religions",
+          "url": "https://www.britannica.com/topic/Abrahamic-religions",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "sunni",
+      "name": "Sunni Islam",
+      "family": "islam-bahai",
+      "group": "islam",
+      "start": 632,
+      "end": null,
+      "summary": "The majority branch of Islam. It accepts the first four caliphs, beginning with Abu Bakr, who was chosen as Muhammad's successor in 632, as legitimate leaders of the community. The 632 start date marks the succession dispute. Historians note that a distinct Sunni identity ('people of the sunna and the community') took shape gradually and only became fixed around the 9th–10th centuries.",
+      "sources": [
+        {
+          "title": "Abu Bakr",
+          "url": "https://www.britannica.com/biography/Abu-Bakr",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Adhering to the Community (Luzūm al-Jamāʿa): Continuities between Late Umayyad Political Discourse and 'Proto-Sunni' Identity (Abbas Barzegar)",
+          "url": "https://resolve.cambridge.org/core/journals/review-of-middle-east-studies/article/abs/adhering-to-the-community-luzum-aljamaa-continuities-between-late-umayyad-political-discourse-and-protosunni-identity1/DE7D76A239DBB43F1C90CBB4913057F5",
+          "publisher": "Review of Middle East Studies, Cambridge University Press"
+        }
+      ]
+    },
+    {
+      "id": "shia",
+      "name": "Shia Islam",
+      "family": "islam-bahai",
+      "group": "islam",
+      "start": 632,
+      "end": null,
+      "summary": "The second-largest branch of Islam. It holds that leadership of the community (the imamate) belonged to Ali ibn Abi Talib, Muhammad's cousin and son-in-law, and to his descendants through Fatima. Its roots lie in the 632 succession dispute. The killing of Ali's son Husayn at Karbala in 680 became a defining memory, and distinct Shia doctrines and branches (such as Twelver, Ismaili and Zaydi) developed over the following centuries.",
+      "sources": [
+        {
+          "title": "Islam – Shiʿism",
+          "url": "https://www.britannica.com/topic/Islam/Shiism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Shīʿite summary",
+          "url": "https://www.britannica.com/summary/Shii",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Twelver Shiʿah",
+          "url": "https://www.britannica.com/topic/Twelver-Shia",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "babism",
+      "name": "Bábism",
+      "family": "islam-bahai",
+      "group": "babi-bahai",
+      "start": 1844,
+      "end": 1863,
+      "summary": "Religious movement founded in Iran by Sayyid ʿAli Muhammad Shirazi, who took the title 'the Báb' ('the Gate') and declared his mission in Shiraz in May 1844. It emerged from a Twelver Shia background, especially the Shaykhi school. The authorities persecuted it heavily and executed the Báb in Tabriz in 1850. Ending it in 1863 is a modelling simplification: most Bábís went on to become Bahá'ís, but a small Azali Bábí minority, following Subh-i Azal, continued on its own.",
+      "sources": [
+        {
+          "title": "The Bāb",
+          "url": "https://www.britannica.com/biography/the-Bab",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Azali Babism (Denis MacEoin)",
+          "url": "https://www.iranicaonline.org/articles/azali-babism/",
+          "publisher": "Encyclopaedia Iranica"
+        },
+        {
+          "title": "The Life of the Báb",
+          "url": "https://www.bahai.org/the-bab/life-the-bab",
+          "publisher": "Bahá'í International Community (bahai.org)"
+        }
+      ]
+    },
+    {
+      "id": "bahai",
+      "name": "Bahá'í Faith",
+      "family": "islam-bahai",
+      "group": "babi-bahai",
+      "start": 1863,
+      "end": null,
+      "summary": "Religion founded by Mirza Husayn-ʿAli Nuri, known as Bahá'u'lláh. In April 1863, in the Garden of Ridván near Baghdad, he declared himself the figure foretold by the Báb. Bahá'ís understand their faith as an independent world religion that teaches the oneness of God, of religion and of humanity. Some scholars place it historically as an outgrowth of Bábism and, more distantly, of Shia Islam.",
+      "sources": [
+        {
+          "title": "Baha'i Faith",
+          "url": "https://www.britannica.com/topic/Bahai-Faith",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "The Life of Bahá'u'lláh",
+          "url": "https://www.bahai.org/bahaullah/life-bahaullah",
+          "publisher": "Bahá'í International Community (bahai.org)"
+        }
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "b-rabbinic",
+      "from": "second-temple",
+      "to": "rabbinic",
+      "year": 70,
+      "type": "reform",
+      "reason": "The Roman destruction of the Jerusalem Temple in 70 CE ended sacrificial worship and the priestly centre of Jewish life. According to the Talmudic account (whose historical accuracy scholars question), Yohanan ben Zakkai founded a centre of learning at Yavneh, and the sages, largely heirs of the Pharisaic tradition, rebuilt Judaism around Torah study, law and prayer.",
+      "added": [
+        "Authority of the rabbis/sages",
+        "Oral Torah codified in Mishnah and Talmud",
+        "Prayer and study in place of sacrifice",
+        "Synagogue and academy as centres"
+      ],
+      "removed": [
+        "Temple sacrifice and priestly cult",
+        "Jerusalem Temple as sole cultic centre",
+        "Sectarian diversity (e.g. Sadducees) faded"
+      ],
+      "sources": [
+        {
+          "title": "Judaism After the Temple",
+          "url": "https://www.myjewishlearning.com/article/judaism-after-the-temple/",
+          "publisher": "My Jewish Learning"
+        },
+        {
+          "title": "The Mishnah as a Response to Catastrophe",
+          "url": "https://www.myjewishlearning.com/article/the-mishnah-as-a-response-to-catastrophe/",
+          "publisher": "My Jewish Learning"
+        },
+        {
+          "title": "Rabbinic Judaism",
+          "url": "https://www.britannica.com/topic/Rabbinic-Judaism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-karaite",
+      "from": "rabbinic",
+      "to": "karaite",
+      "year": 760,
+      "approx": true,
+      "type": "schism",
+      "reason": "According to later Karaite and Rabbanite tradition, Anan ben David, passed over for the office of exilarch in the 760s, broke with the rabbinic academies and wrote a law code (c. 770) based on scripture rather than the Talmud. Modern scholars regard much of this story as later tradition: several non-rabbinic groups, including Anan's followers (Ananites), coalesced into Karaism from the mid-9th century, reaching institutional maturity in the 10th, and Anan was adopted retroactively as founder. Karaites themselves see their Judaism as the original form and the rabbinic Oral Torah as the innovation.",
+      "added": [
+        "Scripture (Tanakh) as sole authority",
+        "Individual study and literal-contextual reading",
+        "Distinct calendar and Sabbath practices"
+      ],
+      "removed": [
+        "Oral Torah as divinely binding",
+        "Authority of the Talmud and rabbinic academies"
+      ],
+      "sources": [
+        {
+          "title": "Anan ben David",
+          "url": "https://www.britannica.com/print/article/22658",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Karaism",
+          "url": "https://www.britannica.com/topic/Karaism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Biblical Exegesis as a Source of Jewish Pluralism: The Case of the Karaites (Daniel J. Lasker)",
+          "url": "https://thetorah.com/biblical-exegesis-as-a-source-of-jewish-pluralism-the-case-of-the-karaites/",
+          "publisher": "TheTorah.com"
+        }
+      ]
+    },
+    {
+      "id": "b-hasidic",
+      "from": "rabbinic",
+      "to": "hasidic",
+      "year": 1740,
+      "approx": true,
+      "type": "reform",
+      "reason": "In 18th-century Podolia a circle around the Ba'al Shem Tov, a healer and mystic, promoted a spirituality accessible to ordinary Jews, in a setting historians link to the aftermath of failed messianic movements and to an elite culture focused on Talmud study. After his death, disciples such as Dov Ber of Mezhirech spread it widely despite fierce opposition from the Mitnaggedim led by the Vilna Gaon; it remained within halakhic Judaism rather than rejecting it.",
+      "added": [
+        "Devekut (cleaving to God) and joyful prayer",
+        "The tzaddik/rebbe as spiritual guide and intermediary",
+        "Popularised Kabbalistic ideas",
+        "Dynastic courts and communities"
+      ],
+      "removed": [
+        "Exclusive prestige of Talmudic scholarship as the path to piety",
+        "Ascetic self-mortification (de-emphasised)"
+      ],
+      "sources": [
+        {
+          "title": "Hasidism: Historical Overview",
+          "url": "https://encyclopedia.yivo.org/article/9",
+          "publisher": "YIVO Encyclopedia of Jews in Eastern Europe"
+        },
+        {
+          "title": "Baal Shem Tov",
+          "url": "https://www.britannica.com/biography/Baal-Shem-Tov",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-orthodox-judaism",
+      "from": "rabbinic",
+      "to": "orthodox-judaism",
+      "year": 1800,
+      "approx": true,
+      "type": "movement",
+      "reason": "Self-understanding: Orthodox Jews regard their Judaism as the unbroken continuation of rabbinic tradition, not a new branch. Scholarly framing: as Enlightenment, emancipation and the Reform movement challenged tradition in early 19th-century Central Europe, traditionalists organised a self-conscious defence of halakhah, led by figures such as Moses Sofer (Hatam Sofer) in Hungary and later Samson Raphael Hirsch in Frankfurt; the label 'Orthodox', at first often used by opponents, had acquired its religious meaning by the 1840s.",
+      "added": [
+        "Explicit doctrine that halakhah is unchangeable",
+        "Organised opposition to religious reform",
+        "Neo-Orthodox synthesis of Torah with secular learning (Hirsch)"
+      ],
+      "removed": [
+        "Acceptance of liturgical and legal reforms",
+        "Pre-modern, unselfconscious traditionalism"
+      ],
+      "sources": [
+        {
+          "title": "Responses to Reform Movement's Emergence: Orthodox and Conservative",
+          "url": "https://www.myjewishlearning.com/article/orthodox-conservative-and-reconstructionist-judaism/",
+          "publisher": "My Jewish Learning"
+        },
+        {
+          "title": "Jeffrey C. Blutinger on the history of the label 'Orthodox' (Modern Judaism)",
+          "url": "https://muse.jhu.edu/article/230171",
+          "publisher": "Project MUSE"
+        },
+        {
+          "title": "Samson Raphael Hirsch: The Father of Neo-Orthodoxy",
+          "url": "https://www.myjewishlearning.com/article/samson-raphael-hirsch-the-father-of-neo-orthodoxy/",
+          "publisher": "My Jewish Learning"
+        }
+      ]
+    },
+    {
+      "id": "b-reform-judaism",
+      "from": "rabbinic",
+      "to": "reform-judaism",
+      "year": 1810,
+      "type": "reform",
+      "reason": "Influenced by the Enlightenment and the prospect of civic emancipation, the lay leader Israel Jacobson sought to make Jewish worship decorous and intelligible to modern Jews. On 17 July 1810 he dedicated a temple at his school in Seesen (Westphalia) with organ music, German hymns and prayers and a sermon, a milestone usually seen as the start of Reform; the first freestanding Reform temple followed in Hamburg in 1818.",
+      "added": [
+        "Vernacular prayers, hymns and sermons",
+        "Organ and choir in worship",
+        "Confirmation ceremony",
+        "View of Judaism as historically evolving"
+      ],
+      "removed": [
+        "Binding authority of traditional halakhah (in later classical Reform)",
+        "Exclusive use of Hebrew liturgy"
+      ],
+      "sources": [
+        {
+          "title": "Israel Jacobson",
+          "url": "https://www.jewishvirtuallibrary.org/jacobson-israel",
+          "publisher": "Jewish Virtual Library (Encyclopaedia Judaica)"
+        },
+        {
+          "title": "Jacobson, Israel",
+          "url": "https://www.jewishencyclopedia.com/articles/8483",
+          "publisher": "Jewish Encyclopedia (1906)"
+        },
+        {
+          "title": "Reform Judaism (summary)",
+          "url": "https://www.britannica.com/summary/Reform-Judaism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-conservative-judaism",
+      "from": "reform-judaism",
+      "to": "conservative-judaism",
+      "year": 1886,
+      "type": "movement",
+      "reason": "Its intellectual roots lie with Zacharias Frankel, who walked out of the 1845 Frankfurt Reform rabbinical conference over the reduction of Hebrew in prayer and advocated 'positive-historical Judaism'. In America, reaction against the radical 1885 Pittsburgh Platform led traditionalists and moderate reformers (Sabato Morais and others) to found the Jewish Theological Seminary in New York in January 1886 (classes began in 1887); it was reorganised under Solomon Schechter in 1902. It is drawn here as a break from Reform, though it is also widely seen as a middle path between Reform and Orthodoxy.",
+      "added": [
+        "Positive-historical study of Jewish law",
+        "Halakhah as binding but evolving",
+        "Retention of Hebrew liturgy and traditional observance"
+      ],
+      "removed": [
+        "Classical Reform's rejection of ritual law (Pittsburgh Platform)",
+        "Orthodox view of halakhah as unchangeable"
+      ],
+      "sources": [
+        {
+          "title": "Conservative Judaism (Pamela S. Nadell, Encyclopedia of Religion)",
+          "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/conservative-judaism",
+          "publisher": "Gale / Encyclopedia.com"
+        },
+        {
+          "title": "Zacharias Frankel",
+          "url": "https://www.britannica.com/print/article/217207",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Morais, Sabato",
+          "url": "https://www.jewishencyclopedia.com/articles/10978",
+          "publisher": "Jewish Encyclopedia (1906)"
+        }
+      ]
+    },
+    {
+      "id": "b-early-christianity",
+      "from": "second-temple",
+      "to": "early-christianity",
+      "year": 30,
+      "approx": true,
+      "type": "movement",
+      "reason": "The movement began among Jewish followers of Jesus of Nazareth, who after his crucifixion (sometime between c. 29 and 33 CE) proclaimed him the Messiah raised from the dead. Disputes over the messianic status of Jesus and whether Gentile converts must keep the Mosaic Law, together with the inclusion of Gentiles, gradually set the movement apart. Historians describe the 'parting of the ways' with Judaism as a gradual and regionally varied process stretching over several centuries rather than a single event.",
+      "added": [
+        "Jesus proclaimed as Messiah and risen Lord",
+        "Baptism and the Eucharist",
+        "Admission of Gentiles without full Torah observance",
+        "New Testament writings"
+      ],
+      "removed": [
+        "Requirement of circumcision for Gentile converts",
+        "Centrality of the Jerusalem Temple cult"
+      ],
+      "sources": [
+        {
+          "title": "History of early Christianity",
+          "url": "https://www.britannica.com/topic/history-of-early-Christianity",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Shaye J. D. Cohen, essay on the Parting of the Ways (PDF)",
+          "url": "https://dash.harvard.edu/bitstream/handle/1/10861143/Cohen_PartingWays.pdf",
+          "publisher": "Harvard University (DASH)"
+        }
+      ]
+    },
+    {
+      "id": "b-church-of-the-east",
+      "from": "early-christianity",
+      "to": "church-of-the-east",
+      "year": 431,
+      "type": "schism",
+      "reason": "The church in the Persian Empire had already developed its own leadership under the catholicos of Seleucia-Ctesiphon at synods in 410 and 424; the 424 synod barred appeals to 'Western' bishops, which some scholars read as a declaration of independence, though others question that interpretation. After the Council of Ephesus (431) condemned Nestorius, the church did not accept that council and aligned with the Antiochene (dyophysite) theology of Theodore of Mopsuestia. It calls itself the Church of the East; the Western label 'Nestorian' is regarded by the church as pejorative and by many scholars (e.g. Sebastian Brock) as a misleading misnomer.",
+      "added": [
+        "Independent catholicos at Seleucia-Ctesiphon",
+        "Antiochene (two-nature) Christology following Theodore of Mopsuestia",
+        "Syriac liturgy and missions across Asia"
+      ],
+      "removed": [
+        "Decisions of the Council of Ephesus (431)",
+        "Title Theotokos ('God-bearer') for Mary"
+      ],
+      "sources": [
+        {
+          "title": "Nestorianism",
+          "url": "https://www.britannica.com/topic/Nestorianism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Dadishoʿ I",
+          "url": "https://gedsh.bethmardutho.org/Dadisho-I",
+          "publisher": "Gorgias Encyclopedic Dictionary of the Syriac Heritage (Beth Mardutho)"
+        },
+        {
+          "title": "The Assyrian Church",
+          "url": "https://www.oikoumene.org/church-families/the-assyrian-church",
+          "publisher": "World Council of Churches"
+        }
+      ]
+    },
+    {
+      "id": "b-oriental-orthodox",
+      "from": "early-christianity",
+      "to": "oriental-orthodox",
+      "year": 451,
+      "type": "schism",
+      "reason": "The Council of Chalcedon (451) defined Christ as one person 'in two natures'. Many Christians in Egypt, Syria and Armenia judged this formula to be unfaithful to Cyril of Alexandria and too close to Nestorius, and held instead to 'one incarnate nature of the Word' (miaphysitism). Imperial attempts at reunion failed, and a separate hierarchy was firmly established by the sixth century; the WCC describes 451 as the first lasting ecclesial division.",
+      "added": [
+        "Miaphysite Christology ('one incarnate nature of the Word')",
+        "Distinct Coptic, Syriac, Armenian and Ethiopian liturgical traditions"
+      ],
+      "removed": [
+        "Definition of the Council of Chalcedon (451)",
+        "Later councils from Chalcedon onward"
+      ],
+      "sources": [
+        {
+          "title": "Orthodox churches (Oriental)",
+          "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+          "publisher": "World Council of Churches"
+        },
+        {
+          "title": "Miaphysitism",
+          "url": "https://www.britannica.com/topic/miaphysitism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "The Oriental Orthodox Churches",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/sixth-century/the-oriental-orthodox-churches",
+          "publisher": "Orthodox Church in America"
+        }
+      ]
+    },
+    {
+      "id": "b-eastern-orthodox",
+      "from": "early-christianity",
+      "to": "eastern-orthodox",
+      "year": 1054,
+      "type": "schism",
+      "reason": "Long-standing linguistic, cultural and political estrangement between the Greek East and Latin West sharpened into disputes over papal authority, the Western addition of the 'filioque' to the Nicene Creed and practices such as leavened bread and clerical celibacy. In 1054 papal legates led by Cardinal Humbert and Patriarch Michael Cerularius of Constantinople exchanged excommunications, the conventional date of the schism. Historians stress that the split was a gradual process, hardened by the Crusades (notably the sack of Constantinople in 1204); the mutual excommunications were lifted in 1965, but full communion has not been restored.",
+      "added": [
+        "Conciliar authority of the patriarchs (pentarchy)",
+        "Nicene Creed without the filioque"
+      ],
+      "removed": ["Universal jurisdiction of the bishop of Rome"],
+      "sources": [
+        {
+          "title": "East-West Schism",
+          "url": "https://www.britannica.com/event/East-West-Schism-1054",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Eastern Orthodoxy – History",
+          "url": "https://www.britannica.com/topic/Eastern-Orthodoxy/History",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-catholic",
+      "from": "early-christianity",
+      "to": "catholic",
+      "year": 1054,
+      "type": "schism",
+      "reason": "The same East–West break of 1054 left the Latin Church in communion with the bishop of Rome, whose claims to primacy over all churches had been strongly asserted by the eleventh-century reform papacy. The Western church kept the filioque in the creed and continued its own liturgical and disciplinary practices. Like the Orthodox, the Catholic Church regards itself as the continuation of the undivided church rather than a new body; 1054 is only a conventional modelling date.",
+      "added": [
+        "Papal primacy and universal jurisdiction",
+        "Filioque in the Nicene Creed",
+        "Latin liturgy and canon law"
+      ],
+      "removed": ["Communion with the Eastern patriarchates"],
+      "sources": [
+        {
+          "title": "Christianity – The Schism of 1054",
+          "url": "https://www.britannica.com/topic/Christianity/The-Schism-of-1054",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Schism of 1054",
+          "url": "https://www.britannica.com/event/Schism-of-1054",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-lutheranism",
+      "from": "catholic",
+      "to": "lutheranism",
+      "year": 1517,
+      "type": "reform",
+      "reason": "Martin Luther, an Augustinian friar and professor at Wittenberg, challenged the sale of indulgences in his Ninety-five Theses (31 October 1517), and his wider critique of church teaching led to his excommunication in 1521. German princes and cities adopted his reforms from the 1520s, and the Augsburg Confession (1530) gave the movement a doctrinal statement. Luther intended to reform the church, but the dispute ended in separate evangelical churches.",
+      "added": [
+        "Justification by faith alone",
+        "Scripture as the supreme authority (sola scriptura)",
+        "Vernacular Bible and congregational hymn singing",
+        "Married clergy"
+      ],
+      "removed": ["Indulgences", "Papal authority", "Five of the seven sacraments as sacraments"],
+      "sources": [
+        {
+          "title": "Lutheranism",
+          "url": "https://www.britannica.com/topic/Lutheranism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Martin Luther",
+          "url": "https://www.britannica.com/biography/Martin-Luther",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-reformed",
+      "from": "catholic",
+      "to": "reformed",
+      "year": 1519,
+      "type": "reform",
+      "reason": "Huldrych Zwingli began preaching through the Gospels at Zurich's Grossmünster on 1 January 1519, and by 1523–25 the city had adopted his reforms, removing images and replacing the Mass with a simple communion service. Zwingli differed from Luther over the Lord's Supper, which he interpreted as a memorial. After Zwingli's death (1531), John Calvin in Geneva (from 1536/1541) shaped the tradition, which merged into a common Reformed confession (Second Helvetic Confession, 1560s).",
+      "added": [
+        "Symbolic/spiritual understanding of the Lord's Supper",
+        "Predestination and the sovereignty of God (Calvin)",
+        "Presbyterian church government by elders"
+      ],
+      "removed": ["Images, organs and the Mass", "Episcopal hierarchy"],
+      "sources": [
+        {
+          "title": "Huldrych Zwingli",
+          "url": "https://www.britannica.com/biography/Huldrych-Zwingli",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Zwinglianism",
+          "url": "https://www.britannica.com/topic/Zwinglianism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Presbyterian",
+          "url": "https://www.britannica.com/topic/presbyterian",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-anglicanism",
+      "from": "catholic",
+      "to": "anglicanism",
+      "year": 1534,
+      "type": "schism",
+      "reason": "When Pope Clement VII refused to annul Henry VIII's marriage to Catherine of Aragon, Parliament passed a series of acts cutting the English church's ties to Rome, culminating in the Act of Supremacy (1534), which declared the king supreme head of the Church of England. The initial break was primarily jurisdictional; Protestant doctrine and worship were introduced mainly under Edward VI and settled under Elizabeth I. Anglicans describe their church as both catholic and reformed.",
+      "added": [
+        "Royal supremacy over the national church",
+        "Book of Common Prayer in English",
+        "Thirty-nine Articles"
+      ],
+      "removed": ["Papal jurisdiction", "Monasteries (dissolved 1536–40)"],
+      "sources": [
+        {
+          "title": "Church of England",
+          "url": "https://www.britannica.com/topic/Church-of-England",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "When was the Church of England founded?",
+          "url": "https://www.britannica.com/question/When-was-the-Church-of-England-founded",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Anglicanism",
+          "url": "https://www.britannica.com/topic/Anglicanism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-anabaptists",
+      "from": "reformed",
+      "to": "anabaptists",
+      "year": 1525,
+      "type": "movement",
+      "reason": "Former associates of Zwingli, led by Konrad Grebel, Felix Manz and George Blaurock, concluded that infant baptism had no basis in Scripture and that the church should consist only of professing believers. After the Zurich council upheld infant baptism in January 1525, they performed the first adult (re)baptisms, probably on 21 January 1525, forming the Swiss Brethren. Authorities treated them as subversive, and many were imprisoned or executed.",
+      "added": [
+        "Believer's baptism",
+        "Church as a voluntary, disciplined community",
+        "Separation of church and state; nonviolence (in most groups)"
+      ],
+      "removed": [
+        "Infant baptism",
+        "State-church establishment",
+        "Oaths and bearing the sword (for many groups)"
+      ],
+      "sources": [
+        {
+          "title": "Swiss Brethren",
+          "url": "https://www.britannica.com/topic/Swiss-Brethren",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Konrad Grebel",
+          "url": "https://www.britannica.com/biography/Konrad-Grebel",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Anabaptist",
+          "url": "https://www.britannica.com/topic/Anabaptists",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-baptists",
+      "from": "anglicanism",
+      "to": "baptists",
+      "year": 1609,
+      "type": "reform",
+      "reason": "English Separatists, who believed the Church of England was insufficiently reformed, formed independent congregations; John Smyth led one from Gainsborough into exile in Amsterdam in 1608. In 1609 Smyth concluded that only believers should be baptised, baptised himself and then others, forming what is usually regarded as the first Baptist church. Thomas Helwys returned with part of the group to England around 1611–12, where Baptist congregations developed into General and Particular Baptist streams.",
+      "added": [
+        "Believer's baptism",
+        "Gathered congregation and local church autonomy",
+        "Advocacy of religious liberty (Helwys)"
+      ],
+      "removed": ["Infant baptism", "National established church and bishops"],
+      "sources": [
+        {
+          "title": "Baptist – History",
+          "url": "https://www.britannica.com/topic/Baptist/History",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "John Smyth",
+          "url": "https://www.britannica.com/biography/John-Smyth",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-baptists-anabaptist-influence",
+      "from": "anabaptists",
+      "to": "baptists",
+      "year": 1609,
+      "type": "influence",
+      "reason": "In Amsterdam, Smyth's congregation had close contact with Waterlander Mennonites, and Smyth later sought union with them, which led Helwys's group to separate. Historians agree that such contacts existed but disagree about their extent: some (e.g. William Estep) argue for substantial Anabaptist influence on Baptist origins, while others stress the English Puritan-Separatist roots and see only limited influence or 'spiritual affinity'.",
+      "added": ["Believer's baptism (shared emphasis)", "Voluntary church of committed members"],
+      "removed": ["Mennonite pacifism and refusal of civil office (rejected by Helwys)"],
+      "sources": [
+        {
+          "title": "John Smyth",
+          "url": "https://www.britannica.com/biography/John-Smyth",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Scholars disagree on Anabaptist-Baptist connection",
+          "url": "https://baptistnews.com/article/scholarsdisagreeonanabaptistbaptistconnection/",
+          "publisher": "Baptist News Global"
+        }
+      ]
+    },
+    {
+      "id": "b-methodism",
+      "from": "anglicanism",
+      "to": "methodism",
+      "year": 1738,
+      "type": "movement",
+      "reason": "John Wesley, an Anglican priest, experienced assurance of salvation at a Moravian-influenced meeting in Aldersgate Street, London, on 24 May 1738, and with his brother Charles and George Whitefield led a revival through open-air preaching and organised societies. Wesley intended Methodism as a renewal movement within the Church of England, but his ordinations for America led to the Methodist Episcopal Church (1784), and British Methodists separated formally in 1795, after his death.",
+      "added": [
+        "Assurance of salvation and pursuit of holiness (Christian perfection)",
+        "Class meetings and lay preachers",
+        "Itinerant ministry and open-air preaching",
+        "Wesleyan Arminian theology"
+      ],
+      "removed": ["Exclusive reliance on parish structures"],
+      "sources": [
+        {
+          "title": "Methodism",
+          "url": "https://www.britannica.com/topic/Methodism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Aldersgate Street Experience",
+          "url": "https://www.britannica.com/topic/Aldersgate-Street-Experience",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "The Christmas Conference: 10 days that started a church",
+          "url": "https://www.umc.org/en/content/the-christmas-conference-10-days-that-started-a-church",
+          "publisher": "The United Methodist Church"
+        }
+      ]
+    },
+    {
+      "id": "b-pentecostalism",
+      "from": "methodism",
+      "to": "pentecostalism",
+      "year": 1906,
+      "type": "movement",
+      "reason": "The Wesleyan Holiness movement, which grew out of Methodism, taught a second work of grace after conversion. Building on this, Charles Fox Parham taught in Topeka (1901) that speaking in tongues was the evidence of Spirit baptism, and his student William J. Seymour, an African American Holiness preacher, led the Azusa Street revival in Los Angeles from April 1906. The revival, notable for its interracial worship, sent missionaries worldwide and is often considered the birth of the modern movement; Methodist parentage here is a simplification of its Holiness and wider revivalist roots.",
+      "added": [
+        "Baptism in the Holy Spirit",
+        "Speaking in tongues",
+        "Divine healing and spiritual gifts",
+        "Expressive worship"
+      ],
+      "removed": ["Cessationist view that miraculous gifts ended with the apostles"],
+      "sources": [
+        {
+          "title": "Azusa Street revival",
+          "url": "https://www.britannica.com/topic/Azusa-Street-revival",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "William J. Seymour",
+          "url": "https://www.britannica.com/biography/William-J-Seymour",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Spirit and Power: A 10-Country Survey of Pentecostals (Preface)",
+          "url": "https://www.pewresearch.org/religion/2006/10/05/spirit-and-power-a-10-country-survey-of-pentecostals3/",
+          "publisher": "Pew Research Center"
+        }
+      ]
+    },
+    {
+      "id": "b-adventism",
+      "from": "baptists",
+      "to": "adventism",
+      "year": 1844,
+      "type": "movement",
+      "reason": "William Miller, a Baptist lay preacher, calculated from the Book of Daniel that Christ would return about 1843–44; his followers, drawn from Methodist, Baptist, Congregational, Christian Connection and other churches, set 22 October 1844 as the date. After the 'Great Disappointment', some, including Ellen G. White, reinterpreted the date as the start of a heavenly 'investigative judgment', and adopted seventh-day Sabbath observance. The Seventh-day Adventist Church was named in 1860 and formally organised in 1863; showing Baptists as the sole parent is a modelling simplification.",
+      "added": [
+        "Imminent, literal Second Coming",
+        "Seventh-day (Saturday) Sabbath",
+        "Investigative judgment and the prophetic ministry of Ellen G. White (Seventh-day Adventists)",
+        "Health reform"
+      ],
+      "removed": ["Sunday worship", "Belief in innate immortality of the soul"],
+      "sources": [
+        {
+          "title": "William Miller",
+          "url": "https://www.britannica.com/biography/William-Miller",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Millerism",
+          "url": "https://www.britannica.com/topic/Millerism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Our History",
+          "url": "https://adventist.org/identity/history",
+          "publisher": "Seventh-day Adventist Church"
+        }
+      ]
+    },
+    {
+      "id": "b-jehovahs-witnesses",
+      "from": "adventism",
+      "to": "jehovahs-witnesses",
+      "year": 1879,
+      "approx": true,
+      "type": "movement",
+      "reason": "Charles Taze Russell's Bible study group in Pittsburgh (from the early 1870s) was influenced by Adventist preachers and their end-time chronology, and in July 1879 Russell began publishing Zion's Watch Tower and Herald of Christ's Presence. The Bible Students organised the Zion's Watch Tower Tract Society (1881, incorporated 1884), and under Joseph F. Rutherford adopted the name Jehovah's Witnesses in 1931. Witnesses understand their movement not as a new religion but as a restoration of first-century Christianity.",
+      "added": [
+        "Emphasis on the divine name Jehovah",
+        "God's Kingdom as heavenly government; 1914 chronology",
+        "Public house-to-house witnessing",
+        "Central Governing Body"
+      ],
+      "removed": [
+        "Doctrine of the Trinity",
+        "Hell as eternal torment",
+        "Participation in war and politics"
+      ],
+      "sources": [
+        {
+          "title": "Charles Taze Russell",
+          "url": "https://www.britannica.com/biography/Charles-Taze-Russell",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Jehovah's Witness",
+          "url": "https://www.britannica.com/topic/Jehovahs-Witnesses",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Jehovah's Witnesses (Reasoning From the Scriptures)",
+          "url": "https://www.jw.org/en/library/books/Reasoning-From-the-Scriptures/Jehovahs-Witnesses/",
+          "publisher": "Jehovah's Witnesses (jw.org)"
+        }
+      ]
+    },
+    {
+      "id": "b-latter-day-saints",
+      "from": "reformed",
+      "to": "latter-day-saints",
+      "year": 1830,
+      "type": "revelation",
+      "reason": "Joseph Smith, raised amid the competing revivals of western New York's 'burned-over district', reported visions and the recovery of golden plates which he translated and published as the Book of Mormon (March 1830); he and associates organised the church on 6 April 1830 in Fayette, New York. Showing the Reformed tradition as parent is a modelling simplification of this American Protestant revivalist milieu. In its own self-description, the Church of Jesus Christ of Latter-day Saints is the restoration of Christ's original church with renewed priesthood authority; in scholarly framing (e.g. Jan Shipps) Mormonism is often described as a new religious tradition.",
+      "added": [
+        "Book of Mormon and further scripture (Doctrine and Covenants, Pearl of Great Price)",
+        "Continuing revelation through living prophets",
+        "Restored priesthood authority and temple ordinances"
+      ],
+      "removed": ["Closed biblical canon", "Historic creeds (e.g. Nicene Trinitarian formulation)"],
+      "sources": [
+        {
+          "title": "Church of Jesus Christ of Latter-day Saints (LDS)",
+          "url": "https://www.britannica.com/topic/Church-of-Jesus-Christ-of-Latter-day-Saints",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Organizing the Church of Christ",
+          "url": "https://www.churchofjesuschrist.org/learn/history/sites/new-york-and-pennsylvania/organizing-the-church-of-christ?lang=eng",
+          "publisher": "The Church of Jesus Christ of Latter-day Saints"
+        },
+        {
+          "title": "Mormonism: The Story of a New Religious Tradition (Jan Shipps)",
+          "url": "https://www.press.uillinois.edu/books/?id=p014178",
+          "publisher": "University of Illinois Press"
+        }
+      ]
+    },
+    {
+      "id": "b-islam",
+      "from": "early-christianity",
+      "to": "islam",
+      "year": 610,
+      "approx": true,
+      "type": "revelation",
+      "reason": "According to Islamic tradition, Muhammad received his first revelation c. 610 in a cave on Mount Hira. Islam sees itself as restoring the pure monotheism of Abraham and continuing the line of prophets that includes Jesus, not as a branch of Christianity. This link shows a historical and scriptural relationship (shared prophets and narratives), not derivation from Christianity.",
+      "added": [
+        "The Qur'an as final revelation",
+        "Muhammad as 'seal of the prophets'",
+        "Strict divine unity (tawhid)"
+      ],
+      "removed": ["The Trinity", "Jesus as Son of God (Jesus is honoured as a prophet)"],
+      "sources": [
+        {
+          "title": "Mount Hira",
+          "url": "https://www.britannica.com/place/Mount-Hira",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Abrahamic religions",
+          "url": "https://www.britannica.com/topic/Abrahamic-religions",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Monotheism",
+          "url": "https://www.britannica.com/topic/monotheism",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-islam-rabbinic-influence",
+      "from": "rabbinic",
+      "to": "islam",
+      "year": 610,
+      "approx": true,
+      "type": "influence",
+      "reason": "The Qur'an shares many figures and narratives with the Hebrew Bible and later Jewish literature, often in reworked form, and Jewish communities lived in Arabia, notably at Medina. Scholars debate how far this contact shaped Qur'anic material, especially the legal material of the Medinan period. Islamic tradition, by contrast, attributes these parallels to a shared divine source.",
+      "added": ["Shared Abrahamic narratives and prophets", "Parallels in ritual and dietary law"],
+      "removed": ["Covenant centred on the people of Israel"],
+      "sources": [
+        {
+          "title": "Meir M. Bar-Asher on Jews and the Qur'an",
+          "url": "https://press.princeton.edu/ideas/meir-m-bar-asher-on-jews-and-the-quran",
+          "publisher": "Princeton University Press"
+        },
+        {
+          "title": "Abrahamic religions",
+          "url": "https://www.britannica.com/topic/Abrahamic-religions",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-sunni",
+      "from": "islam",
+      "to": "sunni",
+      "year": 632,
+      "type": "schism",
+      "reason": "When Muhammad died in 632, the Muslims of Medina accepted Abu Bakr as his first successor (caliph). Those who accepted this choice, and the caliphs who followed, became the core of what later became Sunni Islam. A distinct Sunni identity took shape gradually and was fixed only in the Abbasid period.",
+      "added": [
+        "Caliphate by community selection/consensus",
+        "Authority of the Prophet's sunna and the community (jama'a)",
+        "Legitimacy of the four 'rightly guided' caliphs"
+      ],
+      "removed": ["Hereditary imamate through Ali's line"],
+      "sources": [
+        {
+          "title": "Abu Bakr",
+          "url": "https://www.britannica.com/biography/Abu-Bakr",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Adhering to the Community (Luzūm al-Jamāʿa): Continuities between Late Umayyad Political Discourse and 'Proto-Sunni' Identity (Abbas Barzegar)",
+          "url": "https://resolve.cambridge.org/core/journals/review-of-middle-east-studies/article/abs/adhering-to-the-community-luzum-aljamaa-continuities-between-late-umayyad-political-discourse-and-protosunni-identity1/DE7D76A239DBB43F1C90CBB4913057F5",
+          "publisher": "Review of Middle East Studies, Cambridge University Press"
+        }
+      ]
+    },
+    {
+      "id": "b-shia",
+      "from": "islam",
+      "to": "shia",
+      "year": 632,
+      "type": "schism",
+      "reason": "A party (shi'a) of Muslims held that Muhammad had chosen Ali as his successor, and that leadership belonged to Ali and his descendants through Fatima. Disputes over the caliphate continued, and the killing of Ali's son Husayn by Umayyad forces at Karbala in 680 became a later defining event, commemorated at Ashura. Shia theology and its separate branches developed over the following centuries.",
+      "added": [
+        "Imamate through Ali and his descendants",
+        "Imams as infallible, authoritative interpreters",
+        "Commemoration of Karbala (Ashura)"
+      ],
+      "removed": ["Legitimacy of the first three caliphs"],
+      "sources": [
+        {
+          "title": "Islam – Shiʿism",
+          "url": "https://www.britannica.com/topic/Islam/Shiism",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Shīʿite summary",
+          "url": "https://www.britannica.com/summary/Shii",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "id": "b-babism",
+      "from": "shia",
+      "to": "babism",
+      "year": 1844,
+      "type": "revelation",
+      "reason": "Many Twelver Shia, including followers of the Shaykhi school after the death of its leader Sayyid Kazim Rashti, expected the coming of the Qa'im/Mahdi. In Shiraz on 22–23 May 1844, Sayyid ʿAli Muhammad told the Shaykhi Mulla Husayn Bushru'i that he was 'the Báb' (Gate). He later claimed to be the Qa'im himself and to bring a new revelation, the Bayán. His followers regard this as a new divine revelation, while scholars describe it as a messianic movement rooted in Shia and Shaykhi thought.",
+      "added": [
+        "The Báb as Gate and later as the Qa'im",
+        "New scripture (the Bayán) and laws",
+        "Expectation of 'He whom God shall make manifest'"
+      ],
+      "removed": ["Finality of Islamic law (sharia)", "Waiting for the hidden Twelfth Imam"],
+      "sources": [
+        {
+          "title": "The Bāb",
+          "url": "https://www.britannica.com/biography/the-Bab",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "The Life of the Báb",
+          "url": "https://www.bahai.org/the-bab/life-the-bab",
+          "publisher": "Bahá'í International Community (bahai.org)"
+        }
+      ]
+    },
+    {
+      "id": "b-bahai",
+      "from": "babism",
+      "to": "bahai",
+      "year": 1863,
+      "type": "revelation",
+      "reason": "In April 1863, during a twelve-day stay in the Garden of Ridván near Baghdad, Bahá'u'lláh declared himself to his companions as the one foretold by the Báb. He made the claim public in Edirne around 1866, which led to a lasting split with his half-brother Subh-i Azal, whose followers (Azalis) stayed a minority. Bahá'ís see their faith as an independent world religion with its own revelation, not as a sect of Islam.",
+      "added": [
+        "Bahá'u'lláh as Manifestation of God",
+        "Oneness of God, religion and humanity",
+        "New scripture (e.g. Kitáb-i-Aqdas) and administrative order"
+      ],
+      "removed": ["Bayánic laws (superseded)", "Leadership of Subh-i Azal"],
+      "sources": [
+        {
+          "title": "The Life of Bahá'u'lláh",
+          "url": "https://www.bahai.org/bahaullah/life-bahaullah",
+          "publisher": "Bahá'í International Community (bahai.org)"
+        },
+        {
+          "title": "Baha'i Faith",
+          "url": "https://www.britannica.com/topic/Bahai-Faith",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "title": "Azali Babism (Denis MacEoin)",
+          "url": "https://www.iranicaonline.org/articles/azali-babism/",
+          "publisher": "Encyclopaedia Iranica"
+        }
+      ]
+    }
+  ]
+}
